@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+*.db
+*.sqlite
+messages.db
+whatsapp.db
+.vscode/
+.idea/

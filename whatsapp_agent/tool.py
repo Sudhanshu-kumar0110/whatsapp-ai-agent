@@ -48,16 +48,15 @@ def openai_tool_formate(tools):
     openai_tool = []
 
     for tool in tools:
-        if str(tool.name) == "send_message":
 
-            openai_tool.append({
-                "type": "function",
-                "function": {
-                    "name": tool.name,
-                    "description": tool.description or "",
-                    "parameters": tool.args_schema
-                }
-            })
+        openai_tool.append({
+            "type": "function",
+            "function": {
+                "name": tool.name,
+                "description": tool.description or "",
+                "parameters": tool.args_schema
+            }
+        })
 
     return openai_tool
 

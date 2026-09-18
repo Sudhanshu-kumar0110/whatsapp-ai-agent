@@ -7,7 +7,6 @@
 [![LangGraph](https://img.shields.io/badge/LangGraph-Agentic%20AI-orange)](https://www.langchain.com/langgraph)
 [![MCP](https://img.shields.io/badge/MCP-Model%20Context%20Protocol-black)](https://modelcontextprotocol.io/)
 [![Go](https://img.shields.io/badge/Go-1.24+-00ADD8?logo=go&logoColor=white)](https://go.dev/)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 ---
 
@@ -209,7 +208,7 @@ Example payload:
 
 ```json
 {
-    "sender_name": "John",
+    "sender_name": "Sudhanshu",
     "message_id": "message-id",
     "chat_jid": "123456789@s.whatsapp.net",
     "sender": "123456789@s.whatsapp.net",
@@ -776,24 +775,6 @@ is filtered before the AI workflow is triggered.
 
 ---
 
-# 🛣️ Future Improvements
-
-Potential areas for future development include:
-
-- [ ] More robust conversation memory
-- [ ] Improved persona management
-- [ ] Better tool-selection reliability
-- [ ] Admin control panel
-- [ ] More WhatsApp automation tools
-- [ ] Media understanding
-- [ ] Voice-message processing
-- [ ] Improved error handling and retries
-- [ ] Authentication for the FastAPI endpoint
-- [ ] Structured logging and monitoring
-- [ ] Production deployment support
-
----
-
 # 🎯 Project Goals
 
 The project is built to explore the combination of:
@@ -835,14 +816,6 @@ BCA Student | AI & Agentic AI Developer
 - MCP
 - Backend Development
 - Software Engineering
-
----
-
-# 📜 License
-
-This project is licensed under the MIT License.
-
-See the `LICENSE` file for details.
 
 ---
 

@@ -35,7 +35,7 @@ async def chat_ai(
 
     config = {
         "configurable":{
-            "thread_id":f"{sender_name}"
+            "thread_id":f"{chat_jid}"
         }
     }
 
